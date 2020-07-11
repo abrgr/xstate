@@ -1,5 +1,11 @@
 # xstate
 
+## 4.11.1
+
+### Patch Changes
+
+- [`3ab3f25e`](https://github.com/davidkpiano/xstate/commit/3ab3f25ea297e4d770eef512e9583475c943845d) [#1285](https://github.com/davidkpiano/xstate/pull/1285) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with initial state of invoked machines being read without custom data passed to them which could lead to a crash when evaluating transient transitions for the initial state.
+
 ## 4.11.0
 
 ### Minor Changes
